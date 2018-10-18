@@ -461,9 +461,13 @@ p {
 		text-transform: uppercase;
 		border-width: 3px;
 		border-color: white;
+		-webkit-transition: 0.2s ;
+  -moz-transition: 0.2s;
+  -o-transition:  0.2s;
+  transition:0.2s;
 	}
 	
-	.btn-default {
+	.btn-defaultw {
 		border-radius: 0;
 		font-size: 20px;
 		padding: 10px 40px;
@@ -474,24 +478,66 @@ p {
 		text-transform: uppercase;
 		border-width: 3px;
 		border-color: #CA2F40;
+		-webkit-transition: 0.2s ;
+  -moz-transition: 0.2s;
+  -o-transition:  0.2s;
+  transition:0.2s;
 	}
 	
-	.btn-default:hover,
-	.btn-default:active,
-	.btn-default:focus {
+	.btn-defaultw:hover,
+	.btn-defaultw:active,
+	.btn-defaultw:focus {
 		border-color: #CA2F40 !important;
 		color: white !important;
 		background-color: #CA2F40 !important;
 		-webkit-box-shadow: none !important;
 		box-shadow: none !important
+		-webkit-transition: 0.2s ;
+  -moz-transition: 0.2s;
+  -o-transition:  0.2s;
+  transition:0.2s;
 	}
 	
+	.btn-defaultb {
+		border-radius: 0;
+		font-size: 20px;
+		padding: 10px 40px;
+		background-color: #fa0000;
+		background-image: none;
+		color: #fff;
+		text-shadow: none;
+		text-transform: uppercase;
+		border-width: 3px;
+		border-color: #fa0000;
+		-webkit-transition: 0.2s ;
+  -moz-transition: 0.2s;
+  -o-transition:  0.2s;
+  transition:0.2s;
+	}
+	
+	.btn-defaultb:hover,
+	.btn-defaultb:active,
+	.btn-defaultb:focus {
+		border-color: #fff !important;
+		color:#fa0000 !important;
+		background-color: #fff !important;
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important
+		-webkit-transition: 0.2s ;
+  -moz-transition: 0.2s;
+  -o-transition:  0.2s;
+  transition:0.2s;
+	}
 	.btn-edge:hover,
 	.btn-edge:active,
 	.btn-edge:focus {
 		border-color: #CA2F40 !important;
 		color: #CA2F40 !important;
 		background-color: white !important;
+		-webkit-transition: 0.2s ;
+  -moz-transition: 0.2s;
+  -o-transition:  0.2s;
+  transition:0.2s;
 	}
 	
 	textarea, input, button { outline: none !important; }
