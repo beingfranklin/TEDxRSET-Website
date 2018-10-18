@@ -156,7 +156,7 @@ p {
 
 #partners .row div img,
 #interactives .row div img {
-	max-height: 65px;
+	max-height: 220px;
 	margin: 0 auto;
 }
 
@@ -243,6 +243,10 @@ p {
 
 .bg-red {
 	background-color: #E62B1E;
+	color: white;
+}
+#tickets,.bg-black {
+	background-color: #000;
 	color: white;
 }
 
