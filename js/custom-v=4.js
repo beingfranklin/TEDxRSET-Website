@@ -10,7 +10,6 @@ $('body').on('mouseup', '.twentytwenty-handle', function(){
   $('.percent-left').addClass("no-opacity");
   $('.percent-right').addClass("no-opacity");
   setTimeout(function(){
-    $('.slider-headline').html('<button type="button" class="btn btn-default btn-edge" id="btn-edge-1">Know More</button>');
     $('.slider-headline').removeClass('no-opacity');
   }, 1000);
 });
@@ -37,19 +36,14 @@ $('.event').on('click', function(){
 $('.event a').on('click', function(e){
   e.stopPropagation();
 });
-
 function normalizePercentage(vote, width){
   var x1 = (1140-width)/2;
   var x2 = 1140-x1;
-  
   var bigPostion = 1140*vote;
   var smallPosition = bigPostion-x1;
-  
   var newPercent = smallPosition / width;
-  
   if(newPercent > 1) newPercent = 1.0;
   if(newPercent < 0) newPercent = 0.0;
-  
   return newPercent;
 }
 
